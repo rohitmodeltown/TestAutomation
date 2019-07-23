@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="GroupRun(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <exclude name="Functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hrms.TestScripts.TC_hrms_102">
+        <methods>
+          <include name="TC_2"/>
+        </methods>
+      </class> <!-- com.hrms.TestScripts.TC_hrms_102 -->
+    </classes>
+  </test> <!-- GroupRun(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

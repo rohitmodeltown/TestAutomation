@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="helpers.ExtentTestNGITestListener"></listener>
+	</listeners>
+
+	<!-- <test name="phonePE">
+		<classes>
+			<class name="specs.gateway.phonePE.Debit">
+				<methods>
+					<include name="custDebitSuccess" />
+
+					<exclude name="addEmployeeTestCase" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	
+	<test name="phonePE">
+		<classes>
+			<class name="specs.gateway.phonePE.getCustomerOtp" />
+			<class name="specs.gateway.phonePE.verifyOtp" />
+			<class name="specs.gateway.phonePE.PhonepeTransaction" />
+			<class name="specs.gateway.phonePE.PhonepeRefund" />
+			<class name="specs.gateway.phonePE.Debit" />
+			<class name="specs.gateway.phonePE.Profile" />
+		</classes>
+	</test>
+
+	<test name="dynamicQR">
+		<packages>
+			<package name="specs.volt.dynamicQr" />
+		</packages>
+	</test>  
+	
+	<!-- <test name="UPI">
+		<packages>
+			<package name="specs.gateway.upi" />
+		</packages>
+	</test>  --> 
+</suite>

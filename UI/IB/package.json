@@ -1,0 +1,15 @@
+{
+  "name": "ib_automation",
+  "version": "1.0.0",
+  "description": "Internet Banking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanjeev",
+  "license": "ISC",
+  "dependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.3.3",
+    "xlsx": "^0.8.1"
+  }
+}

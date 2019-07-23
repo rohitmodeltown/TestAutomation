@@ -1,0 +1,110 @@
+
+
+Login.ButtonElementField = //*[@id="open_otp_popup"]
+Login.errorMessageKey = //*[@id="form"]/span[3]
+Login.logout = //div[@class='desktop-bar']//a[@id='logout_link']
+Login.logoutUserIcon = //*[@id="usermenucollapsed"]
+Login.logoutxPath = /html[1]/body[1]/div[1]/nav[1]/div[1]/div[5]/ul[1]/li[4]/ul[1]/li[2]/a[1]
+login.logoutUserWelcomeIcon = /html[1]/body[1]/div[1]/nav[1]/div[1]/div[5]/ul[1]/li[4]/button[1]
+
+Login.home = //*[contains(text(),'Home')]
+Login.entityRegistration = //*[contains(text(),'Entity Registration')]
+Login.userRegistration = //*[contains(text(),'User Registration')]
+
+
+Forget.forgetSubmitElementField = //input[@id='generate_pwd_button']
+Forget.forgetSignInElementField = //a[@class='sign_in']
+
+Forget.forgetLinkElementField = //*[@id="forgotpasslink"]
+
+
+
+########################## USER MANAGEMENT ##############################
+########################## CREATE USER ##############################
+
+User.MenuHeaderClickElementFiled = /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/ul[1]/li[4]/span[2]/a[1]
+User.SubMenuHeaderClickElementField = //span[@class='notCurrentTab open']//a[@id='moduleTab_9_Users']
+User.CreateUserTabElementField = //div[contains(text(),'Create User')]
+User.FirstNameElementField = //*[@id="first_name"]
+User.LastNameElementField = //*[@id="last_name"]
+User.UsernameElementField = //*[@id="user_name"]
+User.DOBElementField = //*[@id="dob"]
+User.EmailElementField = //*[@id="email"]
+User.MobileElementField = //*[@id="mobile"]
+User.DescriptionElementField = //*[@id="description"]
+User.LevelElementField = //*[@id="level"]
+User.StatusElementField = //*[@id="custom_status"]
+User.UserEntityNameElementField = //*[@id="air_user_accounts_name"]
+User.Line1ElementField = //*[@id="registered_add_line1"]
+User.Line2ElementField = //*[@id="registered_add_line2"]
+User.PinCodeElementField =
+User.CheckBoxElementField = //*[@id="copy_address"]
+User.Same_Line1ElementField = 
+User.Same_Line2ElementField =
+User.Same_PinCodeElementField =
+
+User.SaveButtonElementField = //input[@id='SAVE_FOOTER']
+User.CancelButtonElementField = //input[@id='CANCEL_FOOTER']
+
+########################## ENTITY MANAGEMENT ##############################
+########################## CREATE ENTITY ##############################
+
+Entity.MenuHeaderClickElementFiled =  //a[@id='grouptab_2']
+Entity.SubMenuHeaderClickElementField = /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/ul[1]/li[5]/span[2]/ul[1]/li[1]/a[1]
+Entity.CreateUserTabElementField = //div[contains(text(),'Create Entity')]
+Entity.FirstNameElementField = //input[@id='name']
+Entity.MobileElementField =  //input[@id='phone_alternate']
+Entity.STDElementField =  //input[@id='std_code']
+Entity.PhoneElementField = //input[@id='phone_office']
+Entity.EmailElementField = //input[@id='Accounts0emailAddress0']
+Entity.WebsiteElementField = //input[@id='website']
+Entity.EntityTypeElementField = //select[@id='type_of_entity']
+Entity.EntityStatusElementField = //select[@id='entity_status']
+Entity.RegAddressLine1ElementField = //textarea[@id='registered_add_line1']
+Entity.RegAddressLine2ElementField = //textarea[@id='registered_add_line2']
+Entity.PincodeElementField = //input[@id='registered_add_pincode']
+Entity.AuthSignFirstElementField = //input[@id='auth_signatory_first_name']
+Entity.AuthSignMidElementField = //input[@id='auth_signatory_middle_name']
+Entity.AuthSignLastElementField = //input[@id='auth_signatory_last_name']
+Entity.AuthSignMobileElementField = //input[@id='auth_signatory_mobile']
+Entity.AuthSinghSTDElementField = //input[@id='std_code1']
+Entity.AuthSignLandline = //input[@id='auth_signatory_landline']
+Entity.AuthSignEmailElementField = //input[@id='auth_signatory_email']
+Entity.DescriptionElementField = //textarea[@id='description']
+
+Entity.SaveButtonElementField = //input[@id='SAVE_FOOTER']
+Entity.CancelButtonElementField = //input[@id='CANCEL_FOOTER']
+
+
+########################## FRAUD MANAGEMENT ##############################
+########################## CREATE FRAUD ##############################
+
+Fraud.MenuHeaderClickElementFiled =  //a[contains(text(),'Fraud Management')]
+Fraud.SubMenuHeaderClickElementField = /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/ul[1]/li[3]/span[2]/ul[1]/li[1]/a[1]
+Fraud.createFraudTicketElementField = //div[contains(text(),'Create Fraud Ticket')]
+Fraud.victimFirstNameElementField = //input[@id="name"]
+Fraud.victimMiddleNameElementField = //input[@id="middle_name"]
+Fraud.victimLastNameElementField = //input[@id='last_name']	 
+Fraud.victimMobileElementField = //input[@id='mobile']	
+Fraud.victimLandlineElementField = //input[@id='landline']	 
+Fraud.victimEmailElementField =  //input[@id='email_id']
+Fraud.victimLine1ElementField =  //textarea[@id='registered_add_line1']
+Fraud.victimLine2ElementField = //textarea[@id='registered_add_line2']
+Fraud.victimPincodeElementField = //input[@id='registered_add_pincode']
+Fraud.victimTransactionDetailsElementField = //select[@id='type_of_fraud']
+Fraud.cardSixDigitElementField =  //input[@id='first_six_digits_of_card']
+Fraud.cardFourDigitElementField =  //input[@id='last_four_digits_of_card']
+Fraud.addTransactionsElementField = //button[@id='transaction_counter']
+Fraud.AmountElementField = //input[@id='amount1']
+Fraud.TransferredToElementField = //select[@id='money_transferred_to1']
+Fraud.TransactionDeleteElementField = //button[@id='transaction_counter_minus1']
+Fraud.fraudsterMobileElementField = //input[@id='fraudster_mobile']
+Fraud.fraudsterEmailElementField = //input[@id='fraudster_email']	
+Fraud.DescriptionFraudElementField = //textarea[@id='description']
+
+Fraud.SaveButtonElementField = //input[@id='SAVE_FOOTER']
+Fraud.CancelButtonElementField = //input[@id='CANCEL_FOOTER']
+
+########################## NOTIFICATION ##############################
+
+Notification.notificationAlertElementField = /html[1]/body[1]/div[1]/nav[1]/div[1]/div[5]/ul[1]/li[3]/button[1]

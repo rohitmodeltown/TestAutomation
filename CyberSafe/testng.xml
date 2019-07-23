@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+	<test name="SanityTest">
+
+
+		<listeners>
+			<listener class-name="utility.TestListener" />
+			<listener class-name="utility.AnnotationTransformer" />
+		</listeners>
+
+
+
+		<classes>
+			<!-- <class name="testcase.Miscellaneous" /> -->
+
+			<class name="testcase.HomePageTestCase">
+
+				<!-- <methods> <include name="userProfile" /> </methods> -->
+
+			</class>
+
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
