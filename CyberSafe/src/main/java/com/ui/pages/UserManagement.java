@@ -48,7 +48,7 @@ public class UserManagement {
 		Thread.sleep(1000);
 
 		Thread.sleep(1000);
-x
+
 		Log4j.info("Page Refresh");
 
 		TestConstant.driver.navigate().refresh();
